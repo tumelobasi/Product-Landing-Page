@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FCC: Product Landing Page</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="main">
+  
+    <header id="header">
+      
+      <div class="logo">
+        <img
+          id="header-img"
+          alt="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9nFv6n1V-0PSJt4qpSWqQAeAWu73yYVlOA&s"
+        />
+      </div>
+      
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="form">
+          <h2>Handcrafted, designer outfits for every occasion</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              name="email"
+              id="email"
+              required
+            />
+          <input id="submit" type="submit" value="Get Started" />
+          </form>
+      </div>
+    
+    <div id="features">
+       <div class="card">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="content">
+          <h2>Premium Fabrics</h2>
+          <p>
+            Our clothes use the finest materials sourced from around the world. This ensures durability and comfort, elevating your style to the next level.
+          </p>
+        </div>
+      </div>
+      
+       <div class="card">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="content">
+          <h2>Fast Delivery</h2>
+          <p>
+            We prioritize swift shipping, ensuring you receive your outfit promptly after ordering. We also offer hassle-free returns if you're not satisfied.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+        <div class="content">
+          <h2>Quality Craftsmanship</h2>
+          <p>
+            Each piece undergoes meticulous quality checks to guarantee impeccable stitching and construction. Your satisfaction is our priority.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="how-it-works">
+       <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/BtExsVNopCs"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    
+    <div id="pricing">
+       <div class="card">
+        <h2>Summer Collection</h2>
+        <strong>$100</strong>
+        <p>Perfect for sunny days.</p>
+        <p>Lightweight and breathable.</p>
+        <p>Various colors and styles.</p>
+        <button>Select</button>
+      </div>
+      
+      <div class="card">
+        <h2>Winter Collection</h2>
+        <strong>$150</strong>
+        <p>Stay cozy and stylish.</p>
+        <p>Warm, yet fashionable.</p>
+        <p>Choose from our trendy designs.</p>
+        <button>Select</button>
+      </div>
+      
+      <div class="card">
+        <h2>Formal Attire</h2>
+        <strong>$200</strong>
+        <p>Elegant and sophisticated.</p>
+        <p>Perfect for special occasions.</p>
+        <p>Classic styles for timeless charm.</p>
+        <button>Select</button>
+      </div>
+    </div>
+    
+    <footer>
+       <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>Copyright 2024, Elegant Attire</p>
+    </footer>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
